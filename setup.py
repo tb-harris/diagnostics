@@ -1,11 +1,8 @@
 #!/usr/bin/env python
-import diagnostics
+from setuptools import setup
 
-setup(name='Diagnostics',
-      version='1.0',
+setup(name='diagnostics',
+      version='0.1',
       description='Packages the linear regression diagnostics from statsmodels examples',
-      author='Trevor Brandon-Harris',
-      author_email='tbrandonharris@riverdale.edu',
-      url='https://www.python.org/sigs/distutils-sig/',
-      packages=['diagnostics'],
-     )
+      py_modules=["diagnostics"]
+)
